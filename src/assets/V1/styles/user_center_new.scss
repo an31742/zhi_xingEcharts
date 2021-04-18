@@ -1,0 +1,279 @@
+.user{
+  .content{
+    width: 1920px;
+    height: 1080px;
+    left:10px;
+    background-image: url('../../assets/V1/images/service/big_border.png');
+    z-index:10;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+	.head-content {
+    height: 75px;
+    position: relative;
+    .home{
+      background-image: url('../../assets/V1/images/service/home_page.png');
+      background-repeat: no-repeat;
+      position:absolute;
+      left:35px;
+      top: 24px;
+      width: 60px;
+      height: 32px;
+    }
+    div {
+      &:nth-child(1) {
+        width: 464px;
+        height: 100%;
+        background-image: url('../../assets/V1/images/service/title_left.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: left top;
+        position: absolute;
+        top: 24px;
+        left: 82px;
+      }
+
+      &:nth-child(2) {
+        width: 780px;
+        height: 65px;
+        margin: 0 auto;
+        background-image: url('../../assets/V1/images/user/conentHeader01.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center top;
+      }
+
+      &:nth-child(3) {
+        float: right;
+        width: 464px;
+        height: 100%;
+        background-image: url('../../assets/V1/images/service/title_right.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: right top;
+        position: absolute;
+        top: 24px;
+        right:82px;
+      }
+    }
+  }
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../../assets/V1/images/user/usercenter-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  .to-home {
+    position: absolute;
+    left: 46px;
+    top: 18px;
+  }
+  .leftHeader {
+    position: absolute;
+    left: 84px;
+    top: 24px;
+  }
+  .rightHeader {
+    position: absolute;
+    right: 75px;
+    top: 24px;
+  }
+  .userHeader {
+    .userHeaderO {
+      position: absolute;
+      left: 577px;
+      top: 0;
+
+      .userHeadert {
+        position: absolute;
+        left: 292px;
+        top: 7px;
+      }
+    }
+  }
+  .userLeft{
+    .userLeft-top {
+      width: 500px;
+      height: 640px;
+      background-image: url("../../assets/V1/images/user/left.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 90px;
+      left: 31px;
+      h4 {
+        margin: auto;
+        width: 416px;
+        height: 32px;
+        background-image: url("../../assets/V1/images/user/left1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        text-align: center;
+        line-height: 32px;
+      }
+      p {
+        color: #fff;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 19px;
+        i {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          background: linear-gradient(
+            -90deg,
+            rgba(35, 174, 255, 1) 0%,
+            rgba(35, 174, 255, 0) 100%
+          );
+          border-radius: 2px;
+          margin-right: 4px;
+          vertical-align: middle;
+        }
+      }
+    }
+    .userLeft-bottom{
+      width: 500px;
+      height: 310px;
+      background-image: url("../../assets/V1/images/user/left.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 750px;
+      left: 31px;
+      h4 {
+        margin: auto;
+        width: 416px;
+        height: 32px;
+        background-image: url("../../assets/V1/images/user/left1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        text-align: center;
+        line-height: 32px;
+      }
+    }
+  }
+  
+  .userContent {
+    .userCount {
+      width: 820px;
+      height: 241px;
+      background-image: url("../../assets/V1/images/user/1.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 89px;
+      left: 550px;
+      .title {
+        margin: auto;
+        width: 416px;
+        height: 32px;
+        line-height: 32px;
+        background-image: url("../../assets/V1/images/user/left1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        text-align: center;
+      }
+      .userCount-content{
+        display:inline-block;
+        height: 208px;
+        width:260px;
+		margin-left: 12px;
+        .userCount-content-side{
+          text-align:center;
+          padding-top: 60px;
+          .userCountTu{
+            color: #29C896;
+            font-size:44px;
+          }
+		img{
+			width:260px;
+		}
+        }
+      }
+    }
+    .userPay {
+      width: 820px;
+      height: 334px;
+      background-image: url("../../assets/V1/images/user/ti1.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 350px;
+      left: 550px;
+      h4 {
+        margin: auto;
+        width: 416px;
+        height: 32px;
+        line-height: 32px;
+        background-image: url("../../assets/V1/images/user/left1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        text-align: center;
+      }
+      .userPayTu{
+        width: 820px;
+        height: 300px;
+      }
+    }
+    .usreActive {
+      width: 820px;
+      height: 345px;
+      background-image: url("../../assets/V1/images/user/ti2.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      bottom: 31px;
+      left: 550px;
+      h4 {
+        margin: auto;
+        width: 416px;
+        height: 32px;
+        line-height: 32px;
+        background-image: url("../../assets/V1/images/user/left1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        text-align: center;
+      }
+      .usreActiveTu{
+        width: 820px;
+        height: 350px;
+      }
+    }
+  }
+  .content-Right{
+    .userRight {
+      width: 500px;
+      height: 232px;
+      background-image: url("../../assets/V1/images/user/right.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      right: 32px;
+      h4 {
+        margin: auto;
+        width: 416px;
+        height: 32px;
+        background-image: url("../../assets/V1/images/user/left1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #fff;
+        text-align: center;
+        line-height: 32px;
+      }
+      .userAcceptance{
+        width:500px;
+        height:232px;
+      }
+    }
+  }
+ 
+}

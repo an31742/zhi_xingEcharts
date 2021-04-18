@@ -1,0 +1,37 @@
+.head-part {
+  height: 80px;
+   text-align: center;
+  background-image: url(../../assets/images/head_part.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  position: relative;
+
+  .title {
+
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    // text-align: center;
+    background: linear-gradient(to bottom,#2b82f5, #fff);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 10px;
+
+  }
+
+  .button {
+    width: 102px;
+    height: 42px;
+    background-image: url(../../assets/images/100x43home.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    left: 60px;
+    top: 24px;
+    z-index: 1000;
+  }
+
+}

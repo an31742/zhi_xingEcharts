@@ -1,0 +1,234 @@
+.page-wrap {
+  padding: 0 20px 20px 20px;
+
+  .top {
+    margin-top: 20px;
+
+    // margin-left: 20px;
+    ul {
+      display: flex;
+
+      li {
+        flex-direction: column;
+        width: 344px;
+        height: 100px;
+
+        margin-right: 40px;
+        background-image: url(../../../assets/V2/images/huq/tic/344x100.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        p {
+
+          text-align: center;
+
+          height: 24px;
+          line-height: 57px;
+          font-size: 24px;
+          font-family: 'Alibaba-PuHuiTi';
+          font-weight: bold;
+          color: #FFFFFF;
+
+          span {
+           
+            height: 12px;
+            font-size: 30px;
+            font-family: DS-Digital;
+            font-weight: bold;
+            color: #78FCFF;
+
+          }
+        }
+
+        .number {
+          text-align: center;
+          height: 36px;
+          font-size: 48px;
+          letter-spacing: 4px;
+          font-family: 'DS-DIGII-3';
+          color: #7efefd;
+          font-weight: bold;
+          line-height: 100px;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .main {
+    margin-top: 20px;
+    position: relative;
+
+    .left {
+      float: left;
+
+      ul {
+        li {
+          width: 460px;
+          height: 256px;
+
+          margin-bottom: 20px;
+          background-image: url(../../../assets/V2/images/huq/tic/460x257.png);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+
+         
+        }
+      }
+    }
+
+    .center {
+      margin-left: 480px;
+
+      &-top {
+        width: 780px;
+        height: 356px;
+        background-image: url(../../../assets/V2/images/huq/tic/780x357.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+
+        .part-content {
+          display: flex;
+
+          .total {
+            width: 320px;
+            height: 285px;
+            flex-direction: column;
+            margin-left: 31px;
+            margin-right: 42px;
+            margin-top: 20px;
+
+            th {
+              width: 80px;
+              height: 32px;
+              background: #0d256a;
+
+              // opacity: 0.2;
+              font-size: 18px;
+              font-family: 'Alibaba PuHuiTi';
+              font-weight: bold;
+              color: #FFFFFF;
+            }
+
+            td {
+              text-align: center;
+
+              font-size: 16px;
+              font-family: "Alibaba PuHuiTi";
+              font-weight: bold;
+              color: #FFFFFF;
+            }
+
+            &:first-child {
+              tr {
+                &:nth-child(2) {
+                  td {
+                    &:first-child {
+                      color: #E7011D;
+                    }
+
+                    &:last-child {
+                      color: #E7011D;
+                    }
+                  }
+                }
+
+                &:nth-child(3) {
+                  td {
+                    &:first-child {
+                      color: #E16600;
+                    }
+
+                    &:last-child {
+                      color: #E16600;
+                    }
+                  }
+                }
+
+                &:nth-child(4) {
+                  td {
+                    &:first-child {
+                      color: #F1A73E;
+                    }
+
+                    &:last-child {
+                      color: #F1A73E;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &-common {
+        width: 780px;
+        height: 208px;
+        background-image: url(../../../assets/V2/images/huq/tic/780x357.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+         .part-title{
+          line-height: 6px;
+        }
+      }
+    }
+
+    .right {
+      position: absolute;
+      top: -16px;
+      right: 0;
+
+      &-top {
+     
+
+        width: 602px;
+        height: 256px;
+        margin-top: 20px;
+        background-image: url(../../../assets/V2/images/huq/tic/602x257.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      
+
+        
+      }
+
+      &-center {
+        width: 602px;
+        height: 256px;
+        margin-top: 20px;
+        background-image: url(../../../assets/V2/images/huq/tic/602x257.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+     
+      }
+
+      &-bottom {
+        display: flex;
+
+        .right-bottom-common {
+          margin-top: 20px;
+          flex-direction: column;
+          width: 291px;
+          height: 256px;
+          background-image: url(../../../assets/V2/images/huq/tic/291x256.png);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          margin-right: 20px;
+          .part-title{
+            line-height: 31px;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+
+        }
+      }
+    }
+  }
+}

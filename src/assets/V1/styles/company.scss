@@ -1,0 +1,249 @@
+.company {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  .page-wrap {
+    width: 1920px;
+    height: 1080px;
+    background-image: url('~@/assets/V1/images/company/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+
+    .to_home {
+      width: 120px;
+      height: 32px;
+      background-image: url('../../assets/V1/images/service/home_page.png');
+      background-repeat: no-repeat;
+      cursor: pointer;
+      position: absolute;
+      left: 35px;
+      top: 24px;
+    }
+
+    .logo {
+      width:183px;
+      height:113px;
+      background-image: url('../../assets/V1/images/company/logo4.png');
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 85px;
+      top: 44px;
+    }
+
+    .title {
+      width: 1119px;
+      height: 97px;
+     margin-top: 81px;
+      margin-left: 399px;
+      background-image: url('../../assets/V1/images/company/title2.png');
+      background-repeat: no-repeat;
+    }
+    .number {
+      width:1482px;
+      height:166px;
+      margin-left: 218px;
+      background-image: url('../../assets/V1/images/company/nav.png');
+      background-repeat: no-repeat;
+      // position: absolute;
+      // right: 904px;
+      // top: 353px;
+    }
+    .footer{
+      width: 1914px;
+      height:453px;
+     
+      background-image: url('../../assets/V1/images/company/footer.png');
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 5px;
+      bottom: 0;
+      .line{
+        width: 1482px;
+        height: 2px;
+  //  background: #00b4ff;
+        background-image: url('../../assets/V1/images/company/line4.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 214px;
+        bottom: 208px;
+      }
+      span{
+      width: 231px;
+      height: 77px;
+      &:nth-child(2) {
+        background-image: url('../../assets/V1/images/company/basic.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 380px;
+        bottom: 90px;
+      }
+      &:nth-child(3) {
+        background-image: url('../../assets/V1/images/company/data.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 689px;
+        bottom: 90px;
+      }
+      &:nth-child(4) {
+        background-image: url('../../assets/V1/images/company/user.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 999px;
+        bottom: 90px;
+      }
+      &:nth-child(5) {
+        background-image: url('../../assets/V1/images/company/ability.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 1308px;
+        bottom: 90px;
+      }
+      }
+    }
+    .btns {
+      width: 661px;
+      height: 380px;
+      margin-top: 70px;
+      margin-left: 624px;
+      z-index: 9999999;
+      // background-image: url('../../assets/V1/images/company/cercle.gif');
+      // background-repeat: no-repeat;
+      position: relative;
+      #produc{
+      width:366px;
+      height:81px;
+      // margin-top: 159px;
+      // margin-left: 771px;
+      background-image: url('../../assets/V1/images/company/product.png');
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: 130px;
+      left: 143px;
+         }
+      .cercle{
+        width: 900px;
+        height: 360px;
+        // margin-top: 159px;
+        // margin-left: 771px;
+        background-image: url('../../assets/V1/images/company/cercle2.gif');
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: -55px;
+        left: -114px;
+      }
+
+      ol {
+        li {
+          width: 186px;
+          height: 257px;
+        }
+         .history{
+          position: absolute;
+          top: -47px;
+          left: 93px;
+        // background: red;
+          :hover{
+          background-image: url("../../assets/V1/images/company/his2.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 9999;
+          }
+          img{
+          width: 100%;
+          height: 100%;
+          }
+
+        }
+         .origan{
+          position: absolute;
+          top: -42px;
+          left: 359px;
+          // background: red;
+          :hover{
+          background-image: url("../../assets/V1/images/company/organ2.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 9999;
+          }
+          img{
+          width: 100%;
+          height: 100%;
+           }
+          }
+          .people{
+          position: absolute;
+          top: 84px;
+          left: -62px;
+          // background: red;
+          :hover{
+          background-image: url("../../assets/V1/images/company/people2.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 9999;
+          }
+          img{
+          width: 100%;
+          height: 100%;
+          }
+        }
+        .party{
+        position: absolute;
+        top: 97px;
+        left: 540px;
+            // background: red;
+        :hover{
+        background-image: url("../../assets/V1/images/company/party2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 9999;
+        }
+       img{
+        width: 100%;
+        height: 100%;
+        }
+      }
+      .develop{
+        position: absolute;
+        top: 265px;
+       left: 75px;
+        // background: red;
+        :hover{
+       background-image: url("../../assets/V1/images/company/develop2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 9999;
+        }
+        img{
+        width: 100%;
+        height: 100%;
+        }
+      }
+      .research{
+      position: absolute;
+      top: 269px;
+      left: 417px;  
+      // background: red;
+      :hover{
+       background-image: url("../../assets/V1/images/company/research2.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       z-index: 9999;
+      }
+      img{
+      width: 100%;
+      height: 100%;
+      }
+    }
+        
+      }
+    
+
+    }
+  }
+}

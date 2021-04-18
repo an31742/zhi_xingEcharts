@@ -1,0 +1,152 @@
+.page-wrap {
+  padding: 0 20px 20px 20px;
+}
+.page-wrap .top {
+  margin-top: 20px;
+}
+.page-wrap .top ul {
+  display: flex;
+}
+.page-wrap .top ul li {
+  flex-direction: column;
+  width: 344px;
+  height: 100px;
+  margin-right: 40px;
+  background-image: url(../../../assets/V2/images/huq/tic/344x100.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.page-wrap .top ul li p {
+  text-align: center;
+  height: 24px;
+  line-height: 57px;
+  font-size: 24px;
+  font-family: "Alibaba-PuHuiTi";
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.page-wrap .top ul li .number {
+  text-align: center;
+  height: 36px;
+  font-size: 48px;
+  letter-spacing: 4px;
+  font-family: "DS-DIGII-3";
+  color: #7efefd;
+  font-weight: bold;
+  line-height: 100px;
+}
+.page-wrap .top ul li:last-child {
+  margin-right: 0;
+}
+.page-wrap .main {
+  margin-top: 20px;
+  position: relative;
+}
+.page-wrap .main .left {
+  float: left;
+}
+.page-wrap .main .left ul li {
+  width: 460px;
+  height: 256px;
+  margin-bottom: 20px;
+  background-image: url(../../../assets/V2/images/huq/tic/460x257.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.page-wrap .main .left ul li .part-content {
+  margin-top: 20px;
+  margin-left: 24px;
+}
+.page-wrap .main .left ul li .part-content .explain {
+  margin-bottom: 15px;
+}
+.page-wrap .main .left ul li .part-content .explain i {
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  background: #F3AA72;
+}
+.page-wrap .main .left ul li .part-content .explain span {
+  vertical-align: top;
+  display: inline-block;
+  width: 333px;
+  height: 59px;
+  margin-left: 24px;
+  font-size: 14px;
+  font-family: "Alibaba PuHuiTi";
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 22px;
+}
+.page-wrap .main .left ul li .part-content .explain:last-child {
+  margin-bottom: 0;
+}
+.page-wrap .main .center {
+  margin-left: 480px;
+}
+.page-wrap .main .center-top {
+  width: 780px;
+  height: 356px;
+  background-image: url(../../../assets/V2/images/huq/tic/780x357.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+.page-wrap .main .center-top .part-content {
+  display: flex;
+}
+.page-wrap .main .center-top .part-content .total {
+  flex-direction: column;
+}
+.page-wrap .main .center-common {
+  width: 780px;
+  height: 208px;
+  background-image: url(../../../assets/V2/images/huq/tic/780x357.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+.page-wrap .main .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.page-wrap .main .right-top {
+  display: flex;
+}
+.page-wrap .main .right-top .right-top-common {
+  flex-direction: column;
+  width: 291px;
+  height: 256px;
+  background-image: url(../../../assets/V2/images/huq/tic/291x256.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.page-wrap .main .right-top .right-top-common:last-child {
+  margin-right: 0;
+}
+.page-wrap .main .right-center {
+  width: 602px;
+  height: 256px;
+  margin-top: 20px;
+  background-image: url(../../../assets/V2/images/huq/tic/602x257.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.page-wrap .main .right-bottom {
+  display: flex;
+}
+.page-wrap .main .right-bottom .right-bottom-common {
+  margin-top: 20px;
+  flex-direction: column;
+  width: 291px;
+  height: 256px;
+  background-image: url(../../../assets/V2/images/huq/tic/291x256.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.page-wrap .main .right-bottom .right-bottom-common:last-child {
+  margin-right: 0;
+}

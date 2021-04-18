@@ -1,0 +1,927 @@
+// div /deep/ title{
+//   color: #7efefd;
+// }
+
+.product {
+  display: flex;
+  width: 100%;
+  // height:90%;
+  padding: 20px;
+  color: #fff;
+
+  .title {
+    height: 22px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+    font-family: 'Alibaba-PuHuiTi';
+    font-weight: bold;
+  }
+
+  .left {
+    width: 470px;
+
+    &-up {
+      height: 582px;
+      background-image: url("~@/assets/V2/yszImages/470x582.png");
+      background-color: rgba(32, 165, 255, 0);
+      background-size: 100% 100%;
+      position: relative;
+
+      font-family: "Alibaba PuHuiTi";
+      font-weight: bold;
+
+      span {
+        font-size: 12px;
+      }
+
+      .num {
+
+        width: 373px;
+        height: 313px;
+        margin-left: 52px;
+        margin-top: 126px;
+        background-image: url("~@/assets/V2/yszImages/370x313.png");
+        background-color: rgba(32, 165, 255, 0);
+        background-size: 100% 100%;
+
+        .top-title {
+          width: 145px;
+          height: 159px;
+          font-family: 'Alibaba PuHuiTi';
+          background-image: url("../../../assets/V2/yszImages/145x159-1.png");
+          position: absolute;
+          top: 50px;
+          left: 173px;
+
+          &:hover {
+            background-image: url("../../../assets/V2/yszImages/hover/145x159-2.png");
+          }
+
+          .text {
+            // width: 84px;
+            height: 42px;
+            font-size: 20px;
+            margin-top: 46px;
+            margin-left: 29px;
+            margin-bottom: 10px;
+            letter-spacing: 4px;
+            font-weight: bold;
+          }
+
+          .textBottom {
+            letter-spacing: 4px;
+            font-size: 20px;
+            margin-top: -24px;
+            margin-left: 50px;
+            font-weight: bold;
+          }
+
+          .number {
+            font-size: 18px;
+            margin-top: 37px;
+            margin-left: 54px;
+          }
+        }
+
+        .top-title-click {
+          width: 145px;
+          height: 159px;
+          font-family: 'Alibaba PuHuiTi';
+          background-image: url("../../../assets/V2/yszImages/click/145x159-3.png");
+          position: absolute;
+          top: 50px;
+          left: 173px;
+
+
+          .text {
+            // width: 84px;
+            height: 42px;
+            font-size: 20px;
+            margin-top: 46px;
+            margin-left: 29px;
+            margin-bottom: 10px;
+            letter-spacing: 4px;
+            font-weight: bold;
+          }
+
+          .textBottom {
+            letter-spacing: 4px;
+            font-size: 20px;
+            margin-top: -24px;
+            margin-left: 50px;
+            font-weight: bold;
+          }
+
+          .number {
+            font-size: 18px;
+            margin-top: 37px;
+            margin-left: 54px;
+          }
+        }
+
+        .content-title-left {
+          width: 129px;
+          height: 135px;
+          font-size: 18px;
+          font-family: 'Alibaba PuHuiTi';
+          background-image: url("../../../assets/V2/yszImages/129x135-1.png");
+          position: absolute;
+          top: 240px;
+          left: 4px;
+
+          &:hover {
+            background-image: url("../../../assets/V2/yszImages/hover/129x135-3.png");
+          }
+
+          .text {
+            width: 71px;
+            height: 44px;
+            font-size: 20px;
+            margin-top: 36px;
+            margin-left: 42px;
+            line-height: 26px;
+            letter-spacing: 4px;
+          }
+
+          .number {
+            margin-top: 32px;
+            margin-left: 46px;
+          }
+
+          &:nth-child(3) {
+            position: absolute;
+            top: 240px;
+            left: 140px;
+          }
+
+          &:nth-child(4) {
+            position: absolute;
+            top: 240px;
+            left: 328px;
+          }
+          &:nth-child(5){
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+            position: absolute;
+            left: 25px;
+            top: 450px;
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/74x86-1.png");
+  
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/74x86-2.png");
+            }
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+  
+           
+          }
+          &:nth-child(6) {
+
+            position: absolute;
+            left: 96px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+          
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/74x86-1.png");
+  
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/74x86-2.png");
+            }
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(7) {
+            position: absolute;
+            left: 162px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+      
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/74x86-1.png");
+  
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/74x86-2.png");
+            }
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(8) {
+            position: absolute;
+            left: 227px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+       
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/74x86-1.png");
+  
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/74x86-2.png");
+            }
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(9) {
+            position: absolute;
+            left: 311px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+       
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/74x86-1.png");
+  
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/74x86-2.png");
+            }
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(10) {
+            position: absolute;
+            left: 377px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+       
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/74x86-1.png");
+  
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/74x86-2.png");
+            }
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+        }
+
+        .content-title-left-click {
+          width: 129px;
+          height: 135px;
+          font-size: 18px;
+          font-family: 'Alibaba PuHuiTi';
+          background-image: url("../../../assets/V2/yszImages/click/129x135-2.png");
+          position: absolute;
+          top: 240px;
+          left: 4px;
+
+          .text {
+            width: 71px;
+            height: 44px;
+            font-size: 20px;
+            margin-top: 36px;
+            margin-left: 42px;
+            line-height: 26px;
+            letter-spacing: 4px;
+          }
+
+          .number {
+            margin-top: 32px;
+            margin-left: 46px;
+          }
+
+          &:nth-child(3) {
+            position: absolute;
+            top: 240px;
+            left: 140px;
+          }
+
+          &:nth-child(4) {
+            position: absolute;
+            top: 240px;
+            left: 328px;
+          }
+          &:nth-child(5){
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+            position: absolute;
+            left: 25px;
+            top: 450px;
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/click/74x86-3.png");
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+  
+           
+          }
+          &:nth-child(6) {
+
+            position: absolute;
+            left: 96px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+          
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/click/74x86-3.png");
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(7) {
+            position: absolute;
+            left: 162px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+      
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/click/74x86-3.png");
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(8) {
+            position: absolute;
+            left: 227px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+       
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/click/74x86-3.png");
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(9) {
+            position: absolute;
+            left: 311px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+       
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/click/74x86-3.png");
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+
+          &:nth-child(10) {
+            position: absolute;
+            left: 377px;
+            top: 450px;
+            width: 74px;
+            height: 86px;
+            font-size: 12px;
+            font-family: 'Alibaba PuHuiTi';
+       
+            background-size: 100% 100%;
+            background-image: url("../../../assets/V2/yszImages/click/74x86-3.png");
+  
+  
+            .text {
+              width: 52px;
+              height: 36px;
+              font-size: 16px;
+              margin-top: 13px;
+              margin-left: 18px;
+              letter-spacing: 4px;
+              line-height: 20px;
+            }
+  
+            .number {
+              font-size: 18px;
+              margin-top: 14px;
+              margin-left: 19px;
+            }
+          }
+        }
+      }
+    }
+
+    &-down {
+
+      height: 350px;
+      background-image: url("~@/assets/V2/yszImages/470x350.png");
+      background-color: rgba(32, 165, 255, 0);
+      background-size: 100% 100%;
+      margin-top: 19px;
+      position: relative;
+
+      .grade {
+        // 298x303
+        margin-top: 31px;
+        width: 298px;
+        height: 260px;
+        margin-left: 200px;
+        position: relative;
+
+
+
+        span {
+
+          font-size: 36px;
+          font-family: Alibaba PuHuiTi;
+          font-weight: bold;
+          color: #FFFFFF;
+        }
+
+        .topGrade {
+         
+          height: 124px;
+          margin-left: -28px;
+          margin-top: -25px;
+          background-image: url("../../../assets/V2/yszImages/122-124默认.png");
+
+          background-repeat: no-repeat;
+
+          &:hover {
+            background-image: url("../../../assets/V2/yszImages/hover/122-124悬停.png");
+          }
+
+          span {
+            position: absolute;
+            top: 61px;
+            left: 18px;
+          }
+
+          &:nth-child(2) {
+            height: 110px;
+            margin-left: -65px;
+            margin-top: -25px;
+            background-image: url("../../../assets/V2/yszImages/200x110默认.png");
+
+            background-repeat: no-repeat;
+
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/200x110悬停.png");
+            }
+
+            span {
+              position: absolute;
+              top: 139px;
+              left: 9px;
+            }
+          }
+
+          &:nth-child(3) {
+            height: 135px;
+            margin-left: -110px;
+            margin-top: -30px;
+            background-image: url("../../../assets/V2/yszImages/298x135默认.png");
+
+            background-repeat: no-repeat;
+
+            &:hover {
+              background-image: url("../../../assets/V2/yszImages/hover/298x135悬停.png");
+            }
+
+            span {
+              position: absolute;
+              top: 243px;
+              left: 9px;
+            }
+          }
+        }
+
+        .topGrade-click {
+          // margin-top: 5px;
+          height: 124px;
+          margin-left: -28px;
+          margin-top: -25px;
+          background-image: url("../../../assets/V2/yszImages/click/122-124选中.png");
+          background-repeat: no-repeat;
+
+          span {
+            position: absolute;
+            top: 61px;
+            left: 18px;
+          }
+
+          &:nth-child(2) {
+            height: 110px;
+            margin-left: -65px;
+            margin-top: -25px;
+            background-image: url("../../../assets/V2/yszImages/click/200x110选中.png");
+            background-repeat: no-repeat;
+            span {
+              position: absolute;
+              top: 139px;
+              left: 9px;
+            }
+          }
+          &:nth-child(3) {
+            height: 135px;
+            margin-left: -110px;
+            margin-top: -30px;
+            background-image: url("../../../assets/V2/yszImages/click/298x135选中.png");
+            background-repeat: no-repeat;
+            span {
+              position: absolute;
+              top: 243px;
+              left: 9px;
+            }
+          }
+        }
+
+
+
+
+      }
+
+      &-content {
+        font-size: 24px;
+
+        .line {
+          border-bottom: 1px solid;
+          width: 65px;
+        }
+
+        .circle {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-size: 10px, 10px;
+        }
+
+        &-jt {
+          position: absolute;
+          top: 90px;
+          left: 77px;
+          color: #00fffd;
+
+          &-line {
+            position: relative;
+            top: -15px;
+            left: 60px;
+          }
+
+          &-circle {
+            background: #00fffd;
+            position: relative;
+            top: -20px;
+            left: 55px;
+          }
+        }
+
+        &-gs {
+          position: absolute;
+          top: 174px;
+          left: 400px;
+          color: #1975ff;
+
+          &-line {
+            position: relative;
+            top: -17px;
+            left: -76px;
+          }
+
+          &-circle {
+            background: #1975ff;
+            position: relative;
+            top: -22px;
+            left: -18px;
+          }
+        }
+
+        &-bm {
+          position: absolute;
+          top: 245px;
+          left: 20px;
+          color: #213ee0;
+
+          &-line {
+            position: relative;
+            top: -15px;
+            left: 60px;
+          }
+
+          &-circle {
+            background: #213ee0;
+            position: relative;
+            top: -20px;
+            left: 55px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .middle {
+    width: 898px;
+    margin-left: 20px;
+    position: relative;
+
+    &-up {
+      height: 510px;
+      background-image: url("~@/assets/V2/yszImages/900x510.png");
+      background-size: 100% 100%;
+      background-color: rgba(32, 165, 255, 0);
+
+      .prev {
+        cursor: pointer;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border: none;
+
+        opacity: 0.4;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 320px;
+        z-index: 1001;
+        background-image: url('../../../assets/V2/yszImages/zuo1.png');
+        left: 32px;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+
+      .next {
+        cursor: pointer;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border: none;
+
+        opacity: 0.4;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 320px;
+        z-index: 1001;
+        background-image: url('../../../assets/V2/yszImages/you2.png');
+        left: 836px;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+
+      .query {
+        cursor: pointer;
+        width: 80px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        background-image: url('../../../assets/V2/yszImages/query.png');
+        z-index: 1001;
+        top: -88px;
+        right: -482px;
+
+
+      }
+
+
+      ul {
+        width: 84%;
+        position: absolute;
+        left: 8%;
+        top: 441px;
+        margin: 0 auto;
+
+        li {
+          height: 35px;
+          float: left;
+          line-height: 35px;
+          font-size: 18px;
+          text-align: center;
+
+          i {
+            display: block;
+            width: 3px;
+            height: 7px;
+            float: right;
+            background-color: #fff;
+            position: relative;
+            top: -8px;
+            text-align: left;
+          }
+
+          &:last-child>i {
+            display: none;
+          }
+
+          span {
+            display: inline-block;
+            width: 54px;
+            height: 14px;
+            line-height: 73px;
+          }
+        }
+      }
+    }
+
+    &-down {
+      height: 421px;
+      margin-top: 20px;
+      background-image: url("~@/assets/V2/yszImages/898x422.png");
+      background-size: 100% 100%;
+      background-color: rgba(32, 165, 255, 0);
+    }
+  }
+
+  .right {
+    width: 470px;
+    margin-left: 20px;
+
+    .content {
+      height: 304px;
+      background-image: url("~@/assets/V2/yszImages/470x304.png");
+      background-size: 100% 100%;
+      background-color: rgba(32, 165, 255, 0);
+    }
+
+    &-center {
+      margin-top: 19px;
+    }
+
+    &-down {
+      margin-top: 19px;
+    }
+  }
+
+}

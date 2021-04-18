@@ -1,0 +1,172 @@
+.main {
+
+  .up {
+    ul {
+      display: flex;
+      margin: 20px;
+
+      li {
+
+        flex-direction: column;
+        width: 620px;
+        height: 120px;
+        background: rgba(43, 130, 245, 0);
+        // border: 1px solid #7EFEFD;
+        // opacity: 0.5;
+        background-image: url('~@/assets/V2/images/huq/user/600x120.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        h4 {
+          margin: auto;
+          width: 129px;
+          height: 24px;
+          line-height: 57px;
+          font-size: 24px;
+          font-family:'Alibaba-PuHuiTi';
+          font-weight: bold;
+          color: #FFFFFF;
+
+        }
+        div{
+            margin: auto;
+          width: 242px;
+          height: 36px;
+          font-size: 48px;
+          letter-spacing: 4px;
+          font-family: 'DS-DIGII-3';
+          color: #7efefd;
+          font-weight: bold;
+          line-height: 107px;
+        }
+        &:nth-child(1) {
+          margin-right: 40px;
+
+        }
+
+        &:nth-child(2) {
+          margin-right: 40px;
+        }
+
+        &:last-child {
+          h4 {
+            width: 203px;
+          }
+          div{
+            width:97px;
+          }
+        }
+      }
+    }
+  }
+
+  .down {
+    display: flex;
+    padding: 0 20px;
+
+    .left {
+      width: 740px;
+      height: 794px;
+      background: rgba(32, 165, 255, 0);
+      background-image: url('~@/assets/V2/images/huq/user/740x794.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-color:rgba(32, 165, 255, 0);
+
+      h4 {
+        margin: auto;
+        width: 107px;
+        height: 20px;
+        font-size: 20px;
+        font-family:'Alibaba-PuHuiTi';
+        font-weight: bold;
+        color: #FFF;
+
+      }
+    }
+
+    .middle {
+      ul {
+
+        margin: 0 20px;
+        height: 794px;
+        width: 626px;
+
+        li {
+          width: 626px;
+          height: 252px;
+          background: rgba(32, 165, 255, 0);
+          // border: 2px solid;
+          // border-image: linear-gradient(126deg, #78FCFF, #2B82F5) 2 2;
+          background-image: url('../../../assets/V2/images/huq/user/626x252.png');
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          h4 {
+            margin: auto;
+            width: 107px;
+            height: 19px;
+            font-size: 20px;
+            font-family:'Alibaba-PuHuiTi';
+            font-weight: bold;
+            color: #FFF;
+
+
+          }
+
+          &:nth-child(1) {
+            margin-bottom: 19px;
+          }
+
+          &:nth-child(2) {
+            margin-bottom: 19px;
+          }
+        }
+      }
+    }
+
+    .right {
+      ul {
+        height: 794px;
+        width: 470px;
+
+        li {
+          width: 470px;
+          height: 184px;
+          background: rgba(33, 166, 255, 0);
+     
+          background-image: url('~@/assets/V2/images/huq/user/470x158.png');
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          h4 {
+            margin: auto;
+            width: 41px;
+            height: 20px;
+            font-size: 20px;
+            font-family:'Alibaba-PuHuiTi';
+            font-weight: bold;
+            color: #FFF;
+          }
+
+          &:nth-child(1) {
+            margin-bottom: 19px;
+          }
+
+          &:nth-child(2) {
+            margin-bottom: 19px;
+          }
+
+          &:nth-child(3) {
+            margin-bottom: 19px;
+          }
+
+          &:last-child {
+            h4 {
+              width: 86px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,152 @@
+div /deep/ .part-title{
+  color: #FFF;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  // 列表公共样式
+  div /deep/ .list {
+    padding: 0 0 0 15px;
+    width: 100%;
+    height: 560px;
+
+    .item {
+      margin-bottom: 28px;
+      
+   
+    }
+  }
+
+  .top {
+    width: 100%;
+    height: 627px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+
+    &-left {
+      width: 470px;
+      height: 627px;
+      background: url('~@/assets/V2/ljhImages/670x428.png');
+      background-color:rgba(32, 165, 255, 0);
+    }
+
+    &-center {
+      width: 898px;
+      height: 627px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &-top {
+        width: 898px;
+        height: 405px;
+        background: url('~@/assets/V2/ljhImages/898x406.png');
+        background-color:rgba(32, 165, 255, 0);
+      }
+
+      &-bottom {
+        width: 898px;
+        height: 202px;
+        background: url('~@/assets/V2/ljhImages/898x204top5.png');
+        background-color:rgba(32, 165, 255, 0);
+        .netTop5 {
+          margin: 12px auto;
+          height: 150px;
+          width: 850px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .item {
+            width: 144px;
+            height: 100px;
+
+            &-top {
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+
+              span {
+                text-align: center;
+                line-height: 34px;
+                height: 34px;
+                font-size: 20px;
+                font-family:'Alibaba-PuHuiTi';
+                color: #FFFFFF;
+              }
+            }
+
+            &-bottom {
+              margin-top: 10px;
+              width: 144px;
+              height: 66px;
+              background: url('~@/assets/V2/ljhImages/tag2.png');
+              text-align: center;
+              line-height: 66px;
+              font-size: 30px;
+              color: #F5F085;
+            }
+          }
+        }
+      }
+    }
+
+
+    &-right {
+      width: 470px;
+      height: 627px;
+      background: url('~@/assets/V2/ljhImages/670x428.png');
+      background-color:rgba(32, 165, 255, 0);
+    }
+  }
+
+  .bottom {
+    width: 100%;
+    height: 302px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+
+    &-left {
+      width: 931px;
+      height: 303px;
+      background: url('~@/assets/V2/ljhImages/930x303.png');
+      background-color:rgba(32, 165, 255, 0);
+      .box {
+        display: flex;
+
+        img {
+          height: 280px;
+        }
+
+        .item {
+          margin-top: 25px;
+        }
+      }
+    }
+
+    &-right {
+      width: 931px;
+      height: 303px;
+      background: url('~@/assets/V2/ljhImages/930x303.png');
+      background-color:rgba(32, 165, 255, 0);
+      .box {
+        display: flex;
+
+        img {
+          height: 280px;
+        }
+
+        .item {
+          margin-top: 25px;
+        }
+      }
+    }
+
+  }
+}

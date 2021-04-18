@@ -1,0 +1,252 @@
+.company {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  .page-wrap {
+    width: 1920px;
+    height: 1080px;
+    background-image: url('~@/assets/V2/images/huq/company/company.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+
+    .to_home {
+      width: 120px;
+      height: 42px;
+      background-image: url('~@/assets/V2/images/huq/company/home_btn.png');
+      background-repeat: no-repeat;
+      cursor: pointer;
+      position: absolute;
+      left: 85px;
+      top: 44px;
+    }
+
+    .logo {
+      width:244px;
+      height:152px;
+      background-image: url('~@/assets/V2/images/huq/company/244x152.png');
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 85px;
+      top: 44px;
+    }
+
+    .title {
+      width: 1119px;
+      height: 97px;
+     margin-top: 81px;
+      margin-left: 399px;
+      background-image: url('~@/assets/V2/images/huq/company/title2.png');
+      background-repeat: no-repeat;
+    }
+    .number {
+      width:1482px;
+      height:166px;
+      margin-left: 218px;
+      background-image: url('~@/assets/V2/images/huq/company/nav.png');
+      background-repeat: no-repeat;
+    }
+    .footer{
+      width: 1914px;
+      height:453px;
+     
+      background-image: url('~@/assets/V2/images/huq/company/footer.png');
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 5px;
+      bottom: 0;
+      .line{
+        width: 1482px;
+        height: 2px;
+ 
+        background-image: url('~@/assets/V2/images/huq/company/line4.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 214px;
+        bottom: 208px;
+      }
+      span{
+      width: 231px;
+      height: 77px;
+      &:nth-child(2) {
+        background-image: url('~@/assets/V2/images/huq/company/basic.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 380px;
+        bottom: 90px;
+      }
+      &:nth-child(3) {
+        background-image: url('~@/assets/V2/images/huq/company/data.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 689px;
+        bottom: 90px;
+      }
+      &:nth-child(4) {
+        background-image: url('~@/assets/V2/images/huq/company/user.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 999px;
+        bottom: 90px;
+      }
+      &:nth-child(5) {
+        background-image: url('~@/assets/V2/images/huq/company/ability.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 1308px;
+        bottom: 90px;
+      }
+      }
+    }
+    .btns {
+      width: 661px;
+      height: 380px;
+      margin-top: 70px;
+      margin-left: 624px;
+      z-index: 9999999;
+      position: relative;
+      #produc{
+      width:366px;
+      height:81px;
+      background-image: url('~@/assets/V2/images/huq/company/product.png');
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: 130px;
+      left: 143px;
+         }
+      .cercle{
+        width: 900px;
+        height: 360px;
+        background-image: url('~@/assets/V2/images/huq/company/cercle2.gif');
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: -55px;
+        left: -114px;
+      }
+
+      ol {
+        li {
+          width: 186px;
+          height: 257px;
+        }
+         .history{
+          position: absolute;
+          top: -47px;
+          left: 93px;
+
+       
+          :hover{
+          background-image: url("~@/assets/V2/images/huq/company/his2.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 9999;
+          }
+          img{
+          width: 100%;
+          height: 100%;
+          }
+
+        }
+         .origan{
+          position: absolute;
+          top: -42px;
+          left: 359px;
+  
+          :hover{
+          background-image: url("~@/assets/V2/images/huq/company/organ2.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 9999;
+          }
+          img{
+          width: 100%;
+          height: 100%;
+           }
+          }
+          .people{
+          position: absolute;
+          top: 84px;
+          left: -62px;
+          :hover{
+          background-image: url("~@/assets/V2/images/huq/company/people2.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 9999;
+          }
+          img{
+          width: 100%;
+          height: 100%;
+          }
+        }
+        .party{
+        position: absolute;
+        top: 97px;
+        left: 540px;
+        :hover{
+        background-image: url("~@/assets/V2/images/huq/company/party2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 9999;
+        }
+       img{
+        width: 100%;
+        height: 100%;
+        }
+      }
+      .develop{
+        position: absolute;
+        top: 265px;
+       left: 18px;
+        :hover{
+       background-image: url("~@/assets/V2/images/huq/company/develop2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 9999;
+        }
+        img{
+        width: 100%;
+        height: 100%;
+        }
+      }
+      .research{
+      position: absolute;
+      top: 269px;
+      left:468px;  
+      :hover{
+       background-image: url("~@/assets/V2/images/huq/company/research2.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       z-index: 9999;
+      }
+      img{
+      width: 100%;
+      height: 100%;
+      }
+    }
+      .product{
+      position: absolute;
+      top: 281px;
+      left:233px;  
+      :hover{
+       background-image: url("~@/assets/V2/images/huq/company/productHeight.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       z-index: 9999;
+      }
+      img{
+      width: 100%;
+      height: 100%;
+      }
+    }
+        
+      }
+    
+
+    }
+  }
+}
